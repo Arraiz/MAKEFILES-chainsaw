@@ -9,7 +9,7 @@ short: client.c; \
 cc client.c -o client; \
 ./client
 ```
-### lets see how it works
+## lets see how it works
 
 ### this the structure of a basic makefile
 ```
