@@ -31,3 +31,9 @@ another_rule(commands to apply); \
 hello:
   mate-terminal 
 
+
+### adding a "PHONY" target....
+.PHONY:client
+
+client:client.c
+    cc client.c -o client
