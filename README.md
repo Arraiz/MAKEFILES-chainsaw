@@ -28,7 +28,6 @@ target: dependencies; \
 
 #-*-MakeFile-*-
 #hello world  
-short: client.c; \
-cc client.c -o client; \
-./client
+hello:
+  mate-terminal 
 
