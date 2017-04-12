@@ -14,7 +14,7 @@ cc client.c -o client; \
 ### this the structure of a basic makefile
 ```
 target: dependencies
-[tab]<another_rule>
+[tab]<rule>
 ```
 
 ### due to errors in linux with tabs you can use this alternative notation 
