@@ -11,20 +11,20 @@ cc client.c -o client; \
 
 ### lets see how it works
 
-### this is a structure of a basic makefile
+### this the structure of a basic makefile
 
 target: dependencies
 [tab]rule(commands to apply)
 
 
 ### due to errors in linux with tabs you can use this alternative notation 
-### this is happends beacuse some text editor replace the [tab] with some [spaces]
+### this is happens beacuse some text editor replace the [tab] with some [spaces]
 
 target: dependencies; \
-[tab]rule(commands to apply); \
-[tab]another_rule(commands to apply); \
+rule(commands to apply); \
+another_rule(commands to apply); \
 
-### Simple  example that take no dependencies and open a new [mate-terminal](for linux mint)
+### Simple  example that take no dependencies and open a new [mate-terminal](for linux mint) called
 
 #-*-MakeFile-*-
 #hello world  
